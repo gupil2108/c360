@@ -13,7 +13,9 @@
      {"name":"Source"},
      {"name":"Confidence"},
      {"name":"Verified"},
-     {"name":"Timestamp"},
+     {"name":"Timestamp"}
+     ]
+   },
    {"name":"Middle Name"},
    {"name":"Last Name"}
   ]
@@ -166,8 +168,6 @@
    {"name":"Mother Last Name"}
   ]
  }
-]
-}
 ]
 }
 ]

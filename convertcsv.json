@@ -2,6 +2,9 @@
  "name": "Customer",
  "children": [
   {
+  "name": "Profile",
+  "children": [
+  {
   "name": "Name",
   "children":[
    {"name":"First Name"},
@@ -157,5 +160,7 @@
    {"name":"Mother Last Name"}
   ]
  }
+]
+}
 ]
 }

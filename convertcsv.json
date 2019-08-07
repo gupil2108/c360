@@ -6,10 +6,8 @@
      "children": [
       {"name": "FirstName", "value": 7072},
       {"name": "MiddleName", "value": 7073},
-      {"name": "LastName", "value": 7074},
-     ],
-  },
-  ]
+      {"name": "LastName", "value": 7074}
+     ]
   },
   {
    "name": "animate",

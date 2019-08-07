@@ -204,19 +204,19 @@
    "value": null
  },
  {
-   "id": "flare.display.FirstName",
+   "id": "flare.name.FirstName",
    "value": 8833
  },
  {
-   "id": "flare.display.MiddleName",
+   "id": "flare.name.MiddleName",
    "value": 1732
  },
  {
-   "id": "flare.display.LastName",
+   "id": "flare.name.LastName",
    "value": 3623
  },
  {
-   "id": "flare.display.FullName",
+   "id": "flare.name.FullName",
    "value": 10066
  },
  {

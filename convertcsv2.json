@@ -1,112 +1,72 @@
 [
  {
-   "A": "name",
-   "B": "children__name",
-   "C": "children__children__name",
-   "D": "children__children__value",
-   "E": "children__children__children__name",
-   "F": "children__children__children__children__name",
-   "G": "children__children__children__children__value",
-   "H": "children__children__children__value"
+   "name": "flare",
+   "children__name": "analytics",
+   "children__children__name": "cluster",
+   "children__children__children__name": "AgglomerativeCluster",
+   "children__children__children__value": 3938
  },
  {
-   "A": "flare",
-   "B": "analytics",
-   "C": "cluster",
-   "D": "",
-   "E": "AgglomerativeCluster",
-   "F": "",
-   "G": "",
-   "H": "3938"
+   "name": "",
+   "children__name": "",
+   "children__children__name": "",
+   "children__children__children__name": "CommunityStructure",
+   "children__children__children__value": 3812
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
-   "E": "CommunityStructure",
-   "F": "",
-   "G": "",
-   "H": "3812"
+   "name": "",
+   "children__name": "",
+   "children__children__name": "",
+   "children__children__children__name": "HierarchicalCluster",
+   "children__children__children__value": 6714
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
-   "E": "HierarchicalCluster",
-   "F": "",
-   "G": "",
-   "H": "6714"
+   "name": "",
+   "children__name": "",
+   "children__children__name": "",
+   "children__children__children__name": "MergeEdge",
+   "children__children__children__value": 743
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
-   "E": "MergeEdge",
-   "F": "",
-   "G": "",
-   "H": "743"
+   "name": "",
+   "children__name": "",
+   "children__children__name": "graph",
+   "children__children__children__name": "BetweennessCentrality",
+   "children__children__children__value": 3534
  },
  {
-   "A": "",
-   "B": "",
-   "C": "graph",
-   "D": "",
-   "E": "BetweennessCentrality",
-   "F": "",
-   "G": "",
-   "H": "3534"
+   "name": "",
+   "children__name": "",
+   "children__children__name": "",
+   "children__children__children__name": "LinkDistance",
+   "children__children__children__value": 5731
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
-   "E": "LinkDistance",
-   "F": "",
-   "G": "",
-   "H": "5731"
+   "name": "",
+   "children__name": "",
+   "children__children__name": "",
+   "children__children__children__name": "MaxFlowMinCut",
+   "children__children__children__value": 7840
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
-   "E": "MaxFlowMinCut",
-   "F": "",
-   "G": "",
-   "H": "7840"
+   "name": "",
+   "children__name": "",
+   "children__children__name": "",
+   "children__children__children__name": "ShortestPaths",
+   "children__children__children__value": 5914
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
-   "E": "ShortestPaths",
-   "F": "",
-   "G": "",
-   "H": "5914"
+   "name": "",
+   "children__name": "",
+   "children__children__name": "",
+   "children__children__children__name": "SpanningTree",
+   "children__children__children__value": 3416
  },
  {
-   "A": "",
-   "B": "",
-   "C": "",
-   "D": "",
-   "E": "SpanningTree",
-   "F": "",
-   "G": "",
-   "H": "3416"
- },
- {
-   "A": "",
-   "B": "",
-   "C": "optimization",
-   "D": "",
-   "E": "AspectRatioBanker",
-   "F": "",
-   "G": "",
-   "H": "7074"
+   "name": "",
+   "children__name": "",
+   "children__children__name": "optimization",
+   "children__children__children__name": "AspectRatioBanker",
+   "children__children__children__value": 7074
  }
 ]

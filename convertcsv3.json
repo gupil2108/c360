@@ -1,17 +1,17 @@
 {
-"name": "Name",
+"name":"Name",
 "children":[
-{"name":"First Name"},
-{"name":"Middle Name"},
-{"name":"Last Name"}
+ {"name":"First Name"},
+ {"name":"Middle Name"},
+ {"name":"Last Name"}
 ]
 },
 {
-"name": "Mobile Number",
+"name":"Mobile Number",
 "children":[
-{"name":"Mobile Number"},
-{"name":"Phone Number"}
-]
+ {"name":"Mobile Number"},
+ {"name":"Phone Number"}
+ ]
 },
 {
 "name": "Residence Landline"
@@ -32,8 +32,15 @@
 {"name":"Residential Type"}
 ]
 },
+
+
+
+
+
+
+
 {
-"name": "Permanent Address",
+"name":"Permanent Address",
 "children":[
 {"name":"Permanent Address Line 1"},
 {"name":"Permanent Address Line 2"},
@@ -45,6 +52,13 @@
 {"name":"Permanent State"}
 ]
 },
+
+
+
+
+
+
+
 {
 "name": "Office Address",
 "children":[
@@ -58,6 +72,13 @@
 {"name":"Office Type"}
 ]
 },
+
+
+
+
+
+
+
 {
 "name": "Correspondence Address",
 "children":[
@@ -70,15 +91,21 @@
 {"name":"Correspondence Country"}
 ]
 },
+
+
+
+
+
+
 {
 "name": "Gender"
 },
 {
 "name": "Age",
 "children":[
-{"name":"DOB"}
-]
-},
+{"name":"DOB"},
+  ]
+  },
 {
 "name": "Aadhar Number"
 },
@@ -105,6 +132,8 @@
 {"name":"Father Last Name"}
 ]
 },
+
+
 {
 "name": "Mother Name",
 "children":[
@@ -113,6 +142,8 @@
 {"name":"Mother Last Name"}
 ]
 },
+
+
 {
 "name": "Occupation Type"
 },
@@ -154,4 +185,4 @@
 },
 {
 "name": "Annual Turnover"
-}
+} 

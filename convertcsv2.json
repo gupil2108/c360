@@ -1,21 +1,25 @@
 {
+ "name": "flare",
+ "children": [
+{
 "name": "Name",
 "children":[
-  {"name":"First Name"},
-  {"name":"Middle Name"},
-  {"name":"Last Name"}
-],
-
+{"name":"First Name"},
+{"name":"Middle Name"},
+{"name":"Last Name"}
+]
+},
+ {
 "name": "Mobile Number",
 "children":[
-  {"name":"Mobile Number"},
-  {"name":"Phone Number"}
-],
-"name":[
+{"name":"Mobile Number"},
+{"name":"Phone Number"}
+]
+},
 {
 "name": "Residence Landline"
-}],
-
+},
+{
 "name": "Residential Address",
 "children":[
 {"name":"Residential Address Line 1"},
@@ -26,8 +30,12 @@
 {"name":"Residential District"},
 {"name":"Residential Pincode"},
 {"name":"Residential Type"}
-],
+]
+},
 
+
+
+{
 "name": "Permanent Address",
 "children":[
 {"name":"Permanent Address Line 1"},
@@ -38,8 +46,12 @@
 {"name":"Permanent District"},
 {"name":"Permanent Pincode"},
 {"name":"Permanent State"}
-],
+]
+},
 
+
+
+{
 "name": "Office Address",
 "children":[
 {"name":"Office Address Line 1"},
@@ -50,8 +62,12 @@
 {"name":"Office Pincode"},
 {"name":"Office State"},
 {"name":"Office Type"}
-],
+]
+},
 
+
+
+{
 "name": "Correspondence Address",
 "children":[
 {"name":"Correspondence Address Line 1"},
@@ -61,53 +77,55 @@
 {"name":"Correspondence Pincode"},
 {"name":"Correspondence State"},
 {"name":"Correspondence Country"}
-],
+]
+},
 
+
+
+{
 "name": "Age",
 "children":[
 {"name":"DOB"},
-{"name": "Email"},
-{"name": "Nationality"},
-{"name": "Device"},
-{"name": "Mother Name"}
-],
+{
+"name": "Email"
+},
+{
+"name": "Nationality"
+},
+{
+"name": "Device"
+},
+
+{
+"name": "Mother Name",
 "children":[
 {"name":"Mother First Name"},
 {"name":"Mother Middle Name"},
 {"name":"Mother Last Name"}
-],
+]
+},
 
-"name" : [
 {
 "name": "Company Name"
-}],
-
-"name" : [
+},
 {
 "name": "Industry Type"
-}],
-
-"name" : [
+},
 {
 "name": "Nature of Business"
-}],
-
-"name" : [
+},
 {
 "name": "Previous Work Experience"
-}],
-
-"name" : [
+},
 {
 "name": "Years in Current Business"
-}],
-
-"name":[
+},
 {
 "name": "Annual Income"
-}],
-
-"name":[
+},
 {
 "name": "Annual Turnover"
-}]}
+}
+}
+  ]
+}

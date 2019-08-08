@@ -105,7 +105,7 @@
 "name": "Age",
 "children":[
 {"name":"DOB"}
- ]
+]
 },
 {
 "name": "Aadhar Number"

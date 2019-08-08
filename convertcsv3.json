@@ -13,7 +13,6 @@
 {"name":"Phone Number"}
 ]
 },
-
 {
 "name": "Residence Landline"
 },
@@ -33,13 +32,6 @@
 {"name":"Residential Type"}
 ]
 },
-
-
-
-
-
-
-
 {
 "name": "Permanent Address",
 "children":[
@@ -53,13 +45,6 @@
 {"name":"Permanent State"}
 ]
 },
-
-
-
-
-
-
-
 {
 "name": "Office Address",
 "children":[
@@ -73,13 +58,6 @@
 {"name":"Office Type"}
 ]
 },
-
-
-
-
-
-
-
 {
 "name": "Correspondence Address",
 "children":[
@@ -92,12 +70,6 @@
 {"name":"Correspondence Country"}
 ]
 },
-
-
-
-
-
-
 {
 "name": "Gender"
 },

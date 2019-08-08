@@ -1,5 +1,7 @@
-{ 
 {
+  "name:"Customer",
+  "children":[
+  {
   "name": "Name",
   "children":[
    {"name":"First Name"},
@@ -124,4 +126,5 @@
 {
 "name": "Annual Turnover"
 }
-  }
+]
+}

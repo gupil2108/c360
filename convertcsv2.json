@@ -1,14 +1,11 @@
 {
-  "name":"customer",
-  "children":[
-  {
-  "name": "Name",
-  "children":[
-   {"name":"First Name"},
-   {"name":"Middle Name"},
-   {"name":"Last Name"}
-  ]
- },
+"name": "Name",
+"children":[
+{"name":"First Name"},
+{"name":"Middle Name"},
+{"name":"Last Name"}
+]
+},
 {
 "name": "Mobile Number",
 "children":[
@@ -16,8 +13,12 @@
 {"name":"Phone Number"}
 ]
 },
+
 {
 "name": "Residence Landline"
+},
+{
+"name": "Office Landline"
 },
 {
 "name": "Residential Address",
@@ -32,6 +33,10 @@
 {"name":"Residential Type"}
 ]
 },
+
+
+
+
 
 
 
@@ -51,6 +56,10 @@
 
 
 
+
+
+
+
 {
 "name": "Office Address",
 "children":[
@@ -64,6 +73,10 @@
 {"name":"Office Type"}
 ]
 },
+
+
+
+
 
 
 
@@ -82,19 +95,43 @@
 
 
 
+
+
+
+{
+"name": "Gender"
+},
 {
 "name": "Age",
 "children":[
 {"name":"DOB"},
 {
+"name": "Aadhar Number"
+},
+{
 "name": "Email"
+},
+{
+"name": "PAN"
 },
 {
 "name": "Nationality"
 },
 {
+"name": "Qualification"
+},
+{
 "name": "Device"
 },
+{
+"name": "Father Name",
+"children":[
+{"name":"Father First Name"},
+{"name":"Father Middle Name"},
+{"name":"Father Last Name"}
+]
+},
+
 
 {
 "name": "Mother Name",
@@ -105,28 +142,47 @@
 ]
 },
 
+
+{
+"name": "Occupation Type"
+},
 {
 "name": "Company Name"
+},
+{
+"name": "Company Type"
 },
 {
 "name": "Industry Type"
 },
 {
+"name": "Profession Type"
+},
+{
 "name": "Nature of Business"
+},
+{
+"name":"Current Work Experience
+"
 },
 {
 "name": "Previous Work Experience"
 },
 {
+"name": "Total Work Experience"
+},
+{
 "name": "Years in Current Business"
+},
+{
+"name": "Monthly Income"
 },
 {
 "name": "Annual Income"
 },
 {
+"name": "Gross Annual Profit"
+},
+{
 "name": "Annual Turnover"
-}
-]
-}
-]
 }

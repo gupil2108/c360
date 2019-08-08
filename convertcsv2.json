@@ -1,8 +1,7 @@
   {
   "name": "Name",
   "children":[
-   {
-    "name":"First Name"},
+   {"name":"First Name"},
    {"name":"Middle Name"},
    {"name":"Last Name"}
   ]
@@ -124,5 +123,4 @@
 {
 "name": "Annual Turnover"
 }
-]
 }

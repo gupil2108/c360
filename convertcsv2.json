@@ -1,7 +1,4 @@
 {
- "name": "flare",
- "children": [
-{
 "name": "Name",
 "children":[
 {"name":"First Name"},
@@ -9,7 +6,7 @@
 {"name":"Last Name"}
 ]
 },
- {
+{
 "name": "Mobile Number",
 "children":[
 {"name":"Mobile Number"},
@@ -126,6 +123,5 @@
 {
 "name": "Annual Turnover"
 }
-}
-  ]
+]
 }

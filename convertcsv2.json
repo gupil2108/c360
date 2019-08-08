@@ -1,11 +1,12 @@
-{
-"name": "Name",
-"children":[
-{"name":"First Name"},
-{"name":"Middle Name"},
-{"name":"Last Name"}
-]
-},
+  {
+  "name": "Name",
+  "children":[
+   {
+    "name":"First Name"},
+   {"name":"Middle Name"},
+   {"name":"Last Name"}
+  ]
+ },
 {
 "name": "Mobile Number",
 "children":[

@@ -104,7 +104,9 @@
 {
 "name": "Age",
 "children":[
-{"name":"DOB"},
+{"name":"DOB"}
+ ]
+},
 {
 "name": "Aadhar Number"
 },

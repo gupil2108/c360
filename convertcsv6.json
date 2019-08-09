@@ -1,0 +1,13 @@
+{
+ "name": "flare",
+ "children": [
+  {
+"name": "Name",
+"children":[
+{"name":"First Name"},
+{"name":"Middle Name"},
+{"name":"Last Name"}
+]
+}
+ ]
+}

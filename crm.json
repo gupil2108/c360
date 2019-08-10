@@ -1,0 +1,157 @@
+{
+ "name": "Customer",
+ "children": [
+  {
+   "name": "PB Interaction",
+   "children": [
+{
+"name": "Total transactor"
+},
+{
+"name": "Total Lead Count"
+},
+{
+"name": "Total Lead Count"
+},
+{
+"name": "PB Customer ID"
+},
+{
+"name": "Customer Tenure"
+},
+{
+"name": "Lead Created",
+"children":[
+{"name":"Lead Created First Time"},
+{"name":"Lead Created Last Time"}
+]
+},
+
+{
+"name": "PL Leads",
+"children":[
+{"name":"PL Enquiry Count"},
+{"name":"PL First Enquiry Date"},
+{"name":"PL Latest Enquiry Date"},
+{"name":"PL Parent Active"},
+{"name":"PL Updated Date"}
+]
+},
+
+
+
+
+{
+"name": "CC Leads",
+"children":[
+{"name":"CC Enquiry Count"},
+{"name":"CC First Enquiry Date"},
+{"name":"CC Latest Enquiry Date"},
+{"name":"CC Parent Active"},
+{"name":"CC Updated Date"}
+]
+},
+
+
+
+
+{
+"name": "BL Leads",
+"children":[
+{"name":"BL Enquiry Count"},
+{"name":"BL First Enquiry Date"},
+{"name":"BL Latest Enquiry Date"},
+{"name":"BL Parent Active"},
+{"name":"BL Updated Date"}
+]
+},
+
+
+
+
+{
+"name": "CS Leads",
+"children":[
+{"name":"CS Enquiry Count"},
+{"name":"CS First Enquiry Date"},
+{"name":"CS Latest Enquiry Date"},
+{"name":"CS Parent Active"},
+{"name":"CS Updated Date"}
+]
+},
+
+
+
+
+{
+"name": "LAP Leads",
+"children":[
+{"name":"LAP Enquiry Count"},
+{"name":"LAP First Enquiry Date"},
+{"name":"LAP Latest Enquiry Date"},
+{"name":"LAP Parent Active"},
+{"name":"LAP Updated Date"}
+]
+},
+
+
+
+
+{
+"name": "HL Leads",
+"children":[
+{"name":"HL Enquiry Count"},
+{"name":"HL First Enquiry Date"},
+{"name":"HL Latest Enquiry Date"},
+{"name":"HL Parent Active"},
+{"name":"HL Updated Date"}
+]
+},
+
+
+
+
+{
+"name": "STPL Leads",
+"children":[
+{"name":"STPL Enquiry Count"},
+{"name":"STPL First Enquiry Date"},
+{"name":"STPL Latest Enquiry Date"},
+{"name":"STPL Parent Active"},
+{"name":"STPL Updated Date"}
+]
+},
+
+
+
+
+{
+"name": "MF Leads",
+"children":[
+{"name":"MF Enquiry Count"},
+{"name":"MF First Enquiry Date"},
+{"name":"MF Latest Enquiry Date"},
+{"name":"MF Parent Active"},
+{"name":"MF Updated Date"}
+]
+},
+
+
+
+
+{
+"name": "PLBT Leads",
+"children":[
+{"name":"PLBT Enquiry Count"},
+{"name":"PLBT First Enquiry Date"},
+{"name":"PLBT Latest Enquiry Date"},
+{"name":"PLBT Parent Active"},
+{"name":"PLBT Updated Date"}
+]
+}
+]
+}
+]
+}
+
+

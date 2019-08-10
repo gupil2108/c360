@@ -7,7 +7,7 @@
    {
 "name": "Bureau Score",
 "children":[
-{"name":"crm bur score"}
+{"name":"crm.bur_score"}
  ]
  }
 ]

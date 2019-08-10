@@ -166,8 +166,8 @@
 
 
 {
-"name":"DPD - Overall","
-"children":[
+"name":"DPD - Overall",
+ "children":[
 {"name":"Total DPD"}
 ]
 },
@@ -251,7 +251,7 @@
 {"name":"LAP_60DPD"},
 {"name":"LAP_90DPD"}
 ]
-},
+}
 ]
 }
    ]

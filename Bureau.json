@@ -1,0 +1,258 @@
+{
+ "name": "Customer",
+ "children": [
+  {
+   "name": "Bureau",
+   "children": [
+   {
+"name": "Bureau Score",
+"children":[
+{"name":"crm.bur_score"}
+]
+},
+{
+"name": "Credit Score",
+"children":[
+{"name":"CIBIL_score"},
+{"name":"CIBIL_upd_dt"},
+{"name":"Experian_Score"},
+{"name":"Experian_upd_dt"},
+{"name":"CRIF_Score"},
+{"name":"CRIF_upd_dt"},
+{"name":"Highmark_Score"}
+]
+},
+
+
+
+
+
+
+
+{
+"name": "Pre Approved Offers"
+},
+{
+"name": "Bureau Active"
+},
+{
+"name": "Bureau-PL",
+"children":[
+{"name":"latest_pl_closed"},
+{"name":"latest_pl_act_open"},
+{"name":"pl_original_amt_sum"},
+{"name":"PL_act_count"},
+{"name":"PL_past_due_amount"},
+{"name":"PL_balance_sum"},
+{"name":"PL_closed_count"},
+{"name":"crm.bur_pl_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+
+{
+"name": "Bureau-AL",
+"children":[
+{"name":"latest_al_closed"},
+{"name":"latest_al_act_open"},
+{"name":"al_original_amt_sum"},
+{"name":"Auto_act_count"},
+{"name":"Auto_balance_sum"},
+{"name":"Auto_closed_count"},
+{"name":"crm.bur_auto_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+{
+"name": "Bureau-BL",
+"children":[
+{"name":"latest_bl_closed"},
+{"name":"latest_bl_act_open"},
+{"name":"bl_original_amt_sum"},
+{"name":"BL_act_count"},
+{"name":"BL_balance_sum"},
+{"name":"BL_closed_count"},
+{"name":"crm.bur_bl_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+{
+"name": "Bureau-HL",
+"children":[
+{"name":"latest_hl_closed"},
+{"name":"latest_hl_act_open"},
+{"name":"hl_original_amt_sum"},
+{"name":"HL_act_count"},
+{"name":"HL_balance_sum"},
+{"name":"HL_closed_count"},
+{"name":"crm.bur_hl_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+{
+"name": "Bureau-EL",
+"children":[
+{"name":"latest_el_closed"},
+{"name":"latest_el_act_open"},
+{"name":"el_original_amt_sum"},
+{"name":"EL_act_count"},
+{"name":"EL_balance_sum"},
+{"name":"EL_closed_count"},
+{"name":"crm.bur_el_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+{
+"name": "Bureau-CC",
+"children":[
+{"name":"latest_cc_closed"},
+{"name":"latest_cc_act_open"},
+{"name":"cc_original_amt_sum"},
+{"name":"CC_act_count"},
+{"name":"CC_balance_sum"},
+{"name":"CC_closed_count"},
+{"name":"Kissan_cc_count"},
+{"name":"crm.bur_cc_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+
+{
+"name": "Bureau-LAP",
+"children":[
+{"name":"latest_lap_closed"},
+{"name":"latest_lap_act_open"},
+{"name":"lap_original_amt_sum"},
+{"name":"LAP_act_count"},
+{"name":"LAP_balance_sum"},
+{"name":"LAP_closed_count"},
+{"name":"crm.bur_lap_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+{
+"name":"DPD - Overall","
+children":[
+{"name":"Total DPD"}
+]
+}
+{
+"name": "DPD-PL",
+"children":[
+{"name":"PL_Default"},
+{"name":"PL_30DPD"},
+{"name":"PL_60DPD"},
+{"name":"PL_90DPD"}
+]
+},
+
+
+
+{
+"name": "DPD-AL",
+"children":[
+{"name":"AL_Default"},
+{"name":"AL_30DPD"},
+{"name":"AL_60DPD"},
+{"name":"AL_90DPD"}
+]
+},
+
+
+
+{
+"name": "DPD-BL",
+"children":[
+{"name":"BL_Default"},
+{"name":"BL_30DPD"},
+{"name":"BL_60DPD"},
+{"name":"BL_90DPD"}
+]
+},
+
+
+
+{
+"name": "DPD-HL",
+"children":[
+{"name":"HL_Default"},
+{"name":"HL_30DPD"},
+{"name":"HL_60DPD"},
+{"name":"HL_90DPD"}
+]
+},
+
+
+
+{
+"name": "DPD-EL",
+"children":[
+{"name":"EL_Default"},
+{"name":"EL_30DPD"},
+{"name":"EL_60DPD"},
+{"name":"EL_90DPD"}
+]
+},
+
+
+
+{
+"name": "DPD-CC",
+"children":[
+{"name":"CC_Default"},
+{"name":"CC_30DPD"},
+{"name":"CC_60DPD"},
+{"name":"CC_90DPD"}
+]
+},
+
+
+
+{
+"name": "DPD-LAP",
+"children":[
+{"name":"LAP_Default"},
+{"name":"LAP_30DPD"},
+{"name":"LAP_60DPD"},
+{"name":"LAP_90DPD"}
+]
+},
+]
+}
+]
+}

@@ -11,9 +11,6 @@
 "name": "Total Lead Count"
 },
 {
-"name": "Total Lead Count"
-},
-{
 "name": "PB Customer ID"
 },
 {
@@ -149,8 +146,9 @@
 {"name":"PLBT Updated Date"}
 ]
 }
-]
-}
+
+
+
 ]
 }
 

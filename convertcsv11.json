@@ -1,41 +1,194 @@
 {
- "name": "flare",
+ "name": "Customer",
  "children": [
   {
-"name": "Name",
-"children":[
-{"name":"First Name"},
-{"name":"Middle Name"},
-{"name":"Last Name"}
+  "name": "Profile",
+  "children": [
+  {
+  "name": "Name",
+  "children":[
+   {
+    "name":"First Name",
+    "children":[
+     {"name":"Source"},
+     {"name":"Confidence"},
+     {"name":"Verified"},
+     {"name":"Timestamp"}
+     ]
+   },
+   {"name":"Middle Name"},
+   {"name":"Last Name"}
+  ]
+ },
+ {
+   "name": "Mobile Number",
+   "children":[
+    {"name":"Mobile Number"},
+    {"name":"Phone Number"}
+  ]
+ },
+  {
+   "name": "Residence Landline"
+ },
+  {
+   "name": "Office Landline"
+ },
+  {
+   "name": "Residential Address",
+   "children":[
+    {"name":"Residential Address Line 1"},
+    {"name":"Residential Address Line 2"},
+    {"name":"Residential Address Line 3"},
+    {"name":"Residential House Number"},
+    {"name":"Residential City"},
+    {"name":"Residential District"},
+    {"name":"Residential Pincode"},
+    {"name":"Residential Type"}
+  ]
+ },
+  {
+   "name": "Permanent Address",
+   "children":[
+    {"name":"Permanent Address Line 1"},
+    {"name":"Permanent Address Line 2"},
+    {"name":"Permanent Address Line 3"},
+    {"name":"Permanent House Number"},
+    {"name":"Permanent City"},
+    {"name":"Permanent District"},
+    {"name":"Permanent Pincode"},
+    {"name":"Permanent State"}
+   ]
+ },
+  {
+   "name": "Office Address",
+   "children":[
+    {"name":"Office Address Line 1"},
+    {"name":"Office Address Line 2"},
+    {"name":"Office Address Line 3"},
+    {"name":"Office City"},
+    {"name":"Office District"},
+    {"name":"Office Pincode"},
+    {"name":"Office State"}
+   ]
+ },
+  {
+   "name": "Correspondence Address",
+   "children":[
+    {"name":"Correspondence Address Line 1"},
+    {"name":"Correspondence Address Line 2"},
+    {"name":"Correspondence Address Line 3"},
+    {"name":"Correspondence City"},
+    {"name":"Correspondence State"},
+    {"name":"Correspondence Pincode"},
+    {"name":"Correspondence Country"}
+  ]
+ },
+  {
+   "name": "Gender"
+ },
+  {
+   "name": "Email"
+ },
+  {
+   "name": "Age",
+    "children": [
+    {"name": "DOB"}
+   ]
+ },
+  {
+   "name": "Aadhar Number"
+ },
+  {
+   "name": "Nationality"
+ },
+  {
+   "name": "Qualification"
+ },
+  {
+   "name": "Device"
+ },
+  {
+   "name": "Occupation Type"
+ },
+  {
+   "name": "Company Name"
+ },
+  {
+   "name": "Company Type"
+ },
+  {
+   "name": "Industry Type"
+ },
+  {
+   "name": "Company Name"
+ },
+  {
+   "name": "Profession Type"
+ },
+  {
+   "name": "Nature of Business"
+ },
+  {
+   "name": "Current Work Experience"
+ },
+  {
+   "name": "Previous  Work Experience"
+ },
+  {
+   "name": "Total Work Experience"
+ },
+  {
+   "name": "Years in Current Business"
+ },
+  {
+   "name": "Monthly Income"
+ },
+  {
+   "name": "Annual Income"
+ },
+  {
+   "name": "Annual Turnover"
+ },
+  {
+   "name": "Gross Annual Profit"
+ },
+{
+  "name": "Father Name",
+  "children":[
+   {"name":"Father First Name"},
+   {"name":"Father Middle Name"},
+   {"name":"Father Last Name"}
+  ]
+ },
+{
+  "name": "Mother Name",
+  "children":[
+   {"name":"Mother First Name"},
+   {"name":"Mother Middle Name"},
+   {"name":"Mother Last Name"}
+  ]
+ }
 ]
 },
 {
-"name": "Mobile Number",
+   "name": "Bureau",
+   "children": [
+   {
+"name": "Bureau Score",
 "children":[
-{"name":"Mobile Number"},
-{"name":"Phone Number"}
+{"name":"crm.bur_score"}
 ]
 },
-
 {
-"name": "Residence Landline"
-},
-{
-"name": "Office Landline"
-},
-
-
-{
-"name": "Residential Address",
+"name": "Credit Score",
 "children":[
-{"name":"Residential Address Line 1"},
-{"name":"Residential Address Line 2"},
-{"name":"Residential Address Line 3"},
-{"name":"Residential House Number"},
-{"name":"Residential City"},
-{"name":"Residential District"},
-{"name":"Residential Pincode"},
-{"name":"Residential Type"}
+{"name":"CIBIL_score"},
+{"name":"CIBIL_upd_dt"},
+{"name":"Experian_Score"},
+{"name":"Experian_upd_dt"},
+{"name":"CRIF_Score"},
+{"name":"CRIF_upd_dt"},
+{"name":"Highmark_Score"}
 ]
 },
 
@@ -46,16 +199,22 @@
 
 
 {
-"name": "Permanent Address",
+"name": "Pre Approved Offers"
+},
+{
+"name": "Bureau Active"
+},
+{
+"name": "Bureau-PL",
 "children":[
-{"name":"Permanent Address Line 1"},
-{"name":"Permanent Address Line 2"},
-{"name":"Permanent Address Line 3"},
-{"name":"Permanent House Number"},
-{"name":"Permanent City"},
-{"name":"Permanent District"},
-{"name":"Permanent Pincode"},
-{"name":"Permanent State"}
+{"name":"latest_pl_closed"},
+{"name":"latest_pl_act_open"},
+{"name":"pl_original_amt_sum"},
+{"name":"PL_act_count"},
+{"name":"PL_past_due_amount"},
+{"name":"PL_balance_sum"},
+{"name":"PL_closed_count"},
+{"name":"crm.bur_pl_past_due_amount_sum"}
 ]
 },
 
@@ -66,16 +225,88 @@
 
 
 {
-"name": "Office Address",
+"name": "Bureau-AL",
 "children":[
-{"name":"Office Address Line 1"},
-{"name":"Office Address Line 2"},
-{"name":"Office Address Line 3"},
-{"name":"Office City"},
-{"name":"Office District"},
-{"name":"Office Pincode"},
-{"name":"Office State"},
-{"name":"Office Type"}
+{"name":"latest_al_closed"},
+{"name":"latest_al_act_open"},
+{"name":"al_original_amt_sum"},
+{"name":"Auto_act_count"},
+{"name":"Auto_balance_sum"},
+{"name":"Auto_closed_count"},
+{"name":"crm.bur_auto_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+{
+"name": "Bureau-BL",
+"children":[
+{"name":"latest_bl_closed"},
+{"name":"latest_bl_act_open"},
+{"name":"bl_original_amt_sum"},
+{"name":"BL_act_count"},
+{"name":"BL_balance_sum"},
+{"name":"BL_closed_count"},
+{"name":"crm.bur_bl_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+{
+"name": "Bureau-HL",
+"children":[
+{"name":"latest_hl_closed"},
+{"name":"latest_hl_act_open"},
+{"name":"hl_original_amt_sum"},
+{"name":"HL_act_count"},
+{"name":"HL_balance_sum"},
+{"name":"HL_closed_count"},
+{"name":"crm.bur_hl_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+{
+"name": "Bureau-EL",
+"children":[
+{"name":"latest_el_closed"},
+{"name":"latest_el_act_open"},
+{"name":"el_original_amt_sum"},
+{"name":"EL_act_count"},
+{"name":"EL_balance_sum"},
+{"name":"EL_closed_count"},
+{"name":"crm.bur_el_past_due_amount_sum"}
+]
+},
+
+
+
+
+
+
+{
+"name": "Bureau-CC",
+"children":[
+{"name":"latest_cc_closed"},
+{"name":"latest_cc_act_open"},
+{"name":"cc_original_amt_sum"},
+{"name":"CC_act_count"},
+{"name":"CC_balance_sum"},
+{"name":"CC_closed_count"},
+{"name":"Kissan_cc_count"},
+{"name":"crm.bur_cc_past_due_amount_sum"}
 ]
 },
 
@@ -86,15 +317,15 @@
 
 
 {
-"name": "Correspondence Address",
+"name": "Bureau-LAP",
 "children":[
-{"name":"Correspondence  Address Line 1"},
-{"name":"Correspondence Address Line 2"},
-{"name":"Correspondence Address Line 3"},
-{"name":"Correspondence City"},
-{"name":"Correspondence Pincode"},
-{"name":"Correspondence State"},
-{"name":"Correspondence Country"}
+{"name":"latest_lap_closed"},
+{"name":"latest_lap_act_open"},
+{"name":"lap_original_amt_sum"},
+{"name":"LAP_act_count"},
+{"name":"LAP_balance_sum"},
+{"name":"LAP_closed_count"},
+{"name":"crm.bur_lap_past_due_amount_sum"}
 ]
 },
 
@@ -104,93 +335,240 @@
 
 
 {
-"name": "Gender"
-},
-{
-"name": "Age",
-"children":[
-{"name":"DOB"}
+"name":"DPD - Overall",
+ "children":[
+{"name":"Total DPD"}
 ]
 },
 {
-"name": "Aadhar Number"
-},
-{
-"name": "Email"
-},
-{
-"name": "PAN"
-},
-{
-"name": "Nationality"
-},
-{
-"name": "Qualification"
-},
-{
-"name": "Device"
-},
-{
-"name": "Father Name",
+"name": "DPD-PL",
 "children":[
-{"name":"Father First Name"},
-{"name":"Father Middle Name"},
-{"name":"Father Last Name"}
+{"name":"PL_Default"},
+{"name":"PL_30DPD"},
+{"name":"PL_60DPD"},
+{"name":"PL_90DPD"}
 ]
 },
 
 
+
 {
-"name": "Mother Name",
+"name": "DPD-AL",
 "children":[
-{"name":"Mother First Name"},
-{"name":"Mother Middle Name"},
-{"name":"Mother Last Name"}
+{"name":"AL_Default"},
+{"name":"AL_30DPD"},
+{"name":"AL_60DPD"},
+{"name":"AL_90DPD"}
 ]
 },
 
 
+
 {
-"name": "Occupation Type"
+"name": "DPD-BL",
+"children":[
+{"name":"BL_Default"},
+{"name":"BL_30DPD"},
+{"name":"BL_60DPD"},
+{"name":"BL_90DPD"}
+]
+},
+
+
+
+{
+"name": "DPD-HL",
+"children":[
+{"name":"HL_Default"},
+{"name":"HL_30DPD"},
+{"name":"HL_60DPD"},
+{"name":"HL_90DPD"}
+]
+},
+
+
+
+{
+"name": "DPD-EL",
+"children":[
+{"name":"EL_Default"},
+{"name":"EL_30DPD"},
+{"name":"EL_60DPD"},
+{"name":"EL_90DPD"}
+]
+},
+
+
+
+{
+"name": "DPD-CC",
+"children":[
+{"name":"CC_Default"},
+{"name":"CC_30DPD"},
+{"name":"CC_60DPD"},
+{"name":"CC_90DPD"}
+]
+},
+
+
+
+{
+"name": "DPD-LAP",
+"children":[
+{"name":"LAP_Default"},
+{"name":"LAP_30DPD"},
+{"name":"LAP_60DPD"},
+{"name":"LAP_90DPD"}
+]
+}
+]
 },
 {
-"name": "Company Name"
+   "name": "PB Interaction",
+   "children": [
+{
+"name": "Total transactor"
 },
 {
-"name": "Company Type"
+"name": "Total Lead Count"
 },
 {
-"name": "Industry Type"
+"name": "PB Customer ID"
 },
 {
-"name": "Profession Type"
+"name": "Customer Tenure"
 },
 {
-"name": "Nature of Business"
+"name": "Lead Created",
+"children":[
+{"name":"Lead Created First Time"},
+{"name":"Lead Created Last Time"}
+]
 },
+
 {
-"name":"Current Work Experience"
+"name": "PL Leads",
+"children":[
+{"name":"PL Enquiry Count"},
+{"name":"PL First Enquiry Date"},
+{"name":"PL Latest Enquiry Date"},
+{"name":"PL Parent Active"},
+{"name":"PL Updated Date"}
+]
 },
+
+
+
+
 {
-"name": "Previous Work Experience"
+"name": "CC Leads",
+"children":[
+{"name":"CC Enquiry Count"},
+{"name":"CC First Enquiry Date"},
+{"name":"CC Latest Enquiry Date"},
+{"name":"CC Parent Active"},
+{"name":"CC Updated Date"}
+]
 },
+
+
+
+
 {
-"name": "Total Work Experience"
+"name": "BL Leads",
+"children":[
+{"name":"BL Enquiry Count"},
+{"name":"BL First Enquiry Date"},
+{"name":"BL Latest Enquiry Date"},
+{"name":"BL Parent Active"},
+{"name":"BL Updated Date"}
+]
 },
+
+
+
+
 {
-"name": "Years in Current Business"
+"name": "CS Leads",
+"children":[
+{"name":"CS Enquiry Count"},
+{"name":"CS First Enquiry Date"},
+{"name":"CS Latest Enquiry Date"},
+{"name":"CS Parent Active"},
+{"name":"CS Updated Date"}
+]
 },
+
+
+
+
 {
-"name": "Monthly Income"
+"name": "LAP Leads",
+"children":[
+{"name":"LAP Enquiry Count"},
+{"name":"LAP First Enquiry Date"},
+{"name":"LAP Latest Enquiry Date"},
+{"name":"LAP Parent Active"},
+{"name":"LAP Updated Date"}
+]
 },
+
+
+
+
 {
-"name": "Annual Income"
+"name": "HL Leads",
+"children":[
+{"name":"HL Enquiry Count"},
+{"name":"HL First Enquiry Date"},
+{"name":"HL Latest Enquiry Date"},
+{"name":"HL Parent Active"},
+{"name":"HL Updated Date"}
+]
 },
+
+
+
+
 {
-"name": "Gross Annual Profit"
+"name": "STPL Leads",
+"children":[
+{"name":"STPL Enquiry Count"},
+{"name":"STPL First Enquiry Date"},
+{"name":"STPL Latest Enquiry Date"},
+{"name":"STPL Parent Active"},
+{"name":"STPL Updated Date"}
+]
 },
+
+
+
+
 {
-"name": "Annual Turnover"
+"name": "MF Leads",
+"children":[
+{"name":"MF Enquiry Count"},
+{"name":"MF First Enquiry Date"},
+{"name":"MF Latest Enquiry Date"},
+{"name":"MF Parent Active"},
+{"name":"MF Updated Date"}
+]
+},
+
+
+
+
+{
+"name": "PLBT Leads",
+"children":[
+{"name":"PLBT Enquiry Count"},
+{"name":"PLBT First Enquiry Date"},
+{"name":"PLBT Latest Enquiry Date"},
+{"name":"PLBT Parent Active"},
+{"name":"PLBT Updated Date"}
+]
+}
+]
 }
 ]
 }

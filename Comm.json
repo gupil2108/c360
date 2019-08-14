@@ -57,20 +57,16 @@
 {
 "name": "Calls Sub Disposition",
 "children":[
-{"name":"Inbound sub disposition 
-"},
-{"name":"Outbound Call Disposition
-"}
+{"name":"Inbound sub disposition"},
+{"name":"Outbound Call Disposition"}
 ]
 },
 
 {
 "name": "Calls Disposition",
 "children":[
-{"name":"Inbound disposition 
-"},
-{"name":"Outbound Main Disposition
-"}
+{"name":"Inbound disposition "},
+{"name":"Outbound Main Disposition"}
 ]
 },
 

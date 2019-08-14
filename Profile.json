@@ -1,11 +1,25 @@
 {
-"name": "Name",
-"children":[
-{"name":"First Name"},
-{"name":"Middle Name"},
-{"name":"Last Name"}
-]
-},
+ "name": "Customer",
+ "children": [
+  {
+  "name": "Profile",
+  "children": [
+  {
+  "name": "Name",
+  "children":[
+   {
+    "name":"First Name",
+    "children":[
+     {"name":"Source"},
+     {"name":"Confidence"},
+     {"name":"Verified"},
+     {"name":"Timestamp"}
+     ]
+   },
+   {"name":"Middle Name"},
+   {"name":"Last Name"}
+  ]
+ },
 {
 "name": "Mobile Number",
 "children":[
@@ -180,4 +194,8 @@
 },
 {
 "name": "Gross Annual Profit"
+}
+]
+}
+]
 }

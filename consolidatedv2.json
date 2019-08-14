@@ -1,8 +1,10 @@
 {
  "name": "Customer",
  "children": [
-  {
-  "name": "Name",
+ {
+  "name": "Profile",
+  "children": [
+   { "name": "Name",
   "children":[
    {
     "name":"First Name",
@@ -190,6 +192,8 @@
 },
 {
 "name": "Gross Annual Profit"
+}
+]
 }
 ]
 },

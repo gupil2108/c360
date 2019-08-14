@@ -1,0 +1,610 @@
+{
+ "name": "Customer",
+ "children": [
+  {
+  "name": "Name",
+  "children":[
+   {
+    "name":"First Name",
+    "children":[
+     {"name":"Source"},
+     {"name":"Confidence"},
+     {"name":"Verified"},
+     {"name":"Timestamp"}
+     ]
+   },
+   {"name":"Middle Name"},
+   {"name":"Last Name"}
+  ]
+ },
+{
+"name": "Mobile Number",
+"children":[
+{"name":"Mobile Number"},
+{"name":"Phone Number"}
+]
+},
+
+{
+"name": "Residence Landline"
+},
+{
+"name": "Office Landline"
+},
+{
+"name": "Residential Address",
+"children":[
+{"name":"Residential Address Line 1"},
+{"name":"Residential Address Line 2"},
+{"name":"Residential Address Line 3"},
+{"name":"Residential House Number"},
+{"name":"Residential City"},
+{"name":"Residential District"},
+{"name":"Residential Pincode"},
+{"name":"Residential Type"}
+]
+},
+
+
+
+
+
+
+
+{
+"name": "Permanent Address",
+"children":[
+{"name":"Permanent Address Line 1"},
+{"name":"Permanent Address Line 2"},
+{"name":"Permanent Address Line 3"},
+{"name":"Permanent House Number"},
+{"name":"Permanent City"},
+{"name":"Permanent District"},
+{"name":"Permanent Pincode"},
+{"name":"Permanent State"}
+]
+},
+
+
+
+
+
+
+
+{
+"name": "Office Address",
+"children":[
+{"name":"Office Address Line 1"},
+{"name":"Office Address Line 2"},
+{"name":"Office Address Line 3"},
+{"name":"Office City"},
+{"name":"Office District"},
+{"name":"Office Pincode"},
+{"name":"Office State"},
+{"name":"Office Type"}
+]
+},
+
+
+
+
+
+
+
+{
+"name": "Correspondence Address",
+"children":[
+{"name":"Correspondence Address Line 1"},
+{"name":"Correspondence Address Line 2"},
+{"name":"Correspondence Address Line 3"},
+{"name":"Correspondence City"},
+{"name":"Correspondence Pincode"},
+{"name":"Correspondence State"},
+{"name":"Correspondence Country"}
+]
+},
+
+
+
+
+
+
+{
+"name": "Gender"
+},
+{
+"name": "Age",
+"children":[
+{"name":"DOB"}
+]
+},
+{
+"name": "Aadhar Number"
+},
+{
+"name": "Email"
+},
+{
+"name": "PAN"
+},
+{
+"name": "Nationality"
+},
+{
+"name": "Qualification"
+},
+{
+"name": "Device"
+},
+{
+"name": "Father Name",
+"children":[
+{"name":"Father First Name"},
+{"name":"Father Middle Name"},
+{"name":"Father Last Name"}
+]
+},
+
+
+{
+"name": "Mother Name",
+"children":[
+{"name":"Mother First Name"},
+{"name":"Mother Middle Name"},
+{"name":"Mother Last Name"}
+]
+},
+
+
+{
+"name": "Occupation",
+"children":[
+{"name":"Occupation Type"},
+{"name":"Company Name"},
+{"name":"Company Type"},
+{"name":"Industry Type"},
+{"name":"Profession Type"},
+{"name":"Nature of Business"},
+
+
+
+
+
+{
+"name":"Current Work Experience"
+},
+{
+"name": "Previous Work Experience"
+},
+{
+"name": "Total Work Experience"
+},
+{
+"name": "Years in Current Business"
+},
+{
+"name": "Monthly Income"
+},
+{
+"name": "Annual Income"
+},
+{
+"name": "Gross Annual Profit"
+}
+]
+},
+{
+  "name": "Bureau",
+  "children": [
+{
+"name": "Credit Score",
+"children":[
+{"name":"CIBIL_score"},
+{"name":"CIBIL_upd_dt"},
+{"name":"Experian_Score"},
+{"name":"Experian_upd_dt"},
+{"name":"CRIF_Score"},
+{"name":"CRIF_upd_dt"},
+{"name":"Highmark_Score"}
+]
+},
+
+
+
+
+
+
+
+{
+"name": "Pre Approved Offers"
+},
+{
+"name": "Bureau Active"
+},
+{
+"name": "Original Amount Sum",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"}
+]
+},
+
+
+
+
+
+
+
+{
+"name": "Active Count",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Scheduled Monthly Payment"},
+{"name":"Amount Past Due"}
+]
+},
+
+
+
+
+
+
+
+
+
+{
+"name": "Closed Count",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"Date Closed"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Scheduled Monthly Payment"},
+{"name":"Amount Past Due"},
+{"name":"Written off Amount"},
+{"name":"Settlement Amount"}
+]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"name": "Past Due Amount Sum",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Amount Past Due"}
+]
+},
+
+
+
+
+
+
+
+
+{
+"name": "Balance Sum",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Rate of Interest"},
+{"name":"Scheduled Monthly Payment"},
+{"name":"Amount Past Due"}
+]
+},
+
+
+
+
+
+
+
+
+
+
+{
+"name": "Latest Closed Date",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"Date Closed"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Scheduled Monthly Payment"},
+{"name":"Amount Past Due"},
+{"name":"Written off Amount"},
+{"name":"Settlement Amount"}
+]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"name": "Latest Open Date",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Rate of Interest"},
+{"name":"Scheduled Monthly Payment"}
+]
+},
+
+
+
+
+
+
+
+
+
+{
+"name": "Enquiry Count",
+"children":[
+{"name":"Date of Request"},
+{"name":"Subscriber Name"},
+{"name":"Product"},
+{"name":"Amount"},
+{"name":"Purpose"},
+{"name":"Enquiry Reason"}
+]
+},
+
+
+
+
+
+{
+"name": "DPD - Ever"
+},
+{
+"name": "DPD - Default"
+},
+{
+"name": "Days Past Due (DPD)"
+},
+{
+"name": "Is_DPD_30"
+},
+{
+"name": "Is_DPD_60"
+},
+{
+"name": "Is_DPD_90"
+}
+]
+},
+  {
+  "name": "Leads and Transactions",
+  "children": [
+{
+"name": "Total transactor"
+},
+{
+"name": "Total Lead Count"
+,
+"children":[
+{"name":"Product"},
+{"name":"Sub Product"},{"name":"Parent Active"},
+{"name":"Lead Created Date "},
+{"name":"Host Name"},
+{"name":"Device"},
+{"name":"Browser"},
+{"name":"Campaign Source"},
+{"name":"Campaign Name"},
+{"name":"Campaign Medium"},
+{"name":"Campaign Term"},
+{"name":"Campaign Content"},
+{"name":"Data Source"},
+{"name":"Agent Disposition"},
+{"name":"Agent Sub Disposition"},
+{"name":"Agent Disposition User"},
+{"name":"City"}]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"name": "PB Customer ID"
+},
+{
+"name": "Customer Tenure"
+},
+{
+"name": "Lead Created",
+"children":[
+{"name":"Lead Created First Time"},
+{"name":"Lead Created Last Time"}
+]
+}
+]
+},
+  {
+  "name": "Communication",
+  "children": [
+{
+"name": "Communication Count",
+"children":[
+{"name":"LTD Count"},
+{"name":"MTD Count"},
+{"name":"Today Count "},
+{"name":"Channel(Email,WhatsApp etc.)"},
+{"name":"Product"},
+{"name":"Tansactional/Promotional"},
+{"name":"Click Rate 6 month"},
+{"name":"Click Rate 1 month"},
+{"name":"Clicks in the last 6 months"},
+{"name":"Sent in the last 6 months"},
+{"name":"Earliest Sent Time 6 month"},
+{"name":"Latest Sent Time 6 month"},
+{"name":"Clicks in the last 1 month"},
+{"name":"Sent in the last 1 month"},
+{"name":"Failed messages last 6 months"},
+{"name":"Failed messages last 1 month"},
+{"name":"Open Rate 6 months"},
+{"name":"Open Rate 1 month"},
+{"name":"Opens in the last 6 months"},
+{"name":"Earliest Click Time 6 months"},
+{"name":"Latest Click Time 6 months"},
+{"name":"Earliest Open Time 6 months"},
+{"name":"Latest Open Time 6 months"},
+{"name":"Failed Messages"},
+{"name":"Sent Today"},
+{"name":"Sent Last Week"},
+{"name":"Bounce Rate"}
+]
+},
+{
+"name": "Latest Mobile"
+},
+{
+"name": "Latest Phone model"
+},
+{
+"name": "Latest OS"
+},
+{
+"name": "Latest Browser"
+},
+{
+"name": "Latest Operator"
+},
+{
+"name": "Latest Circle"
+},
+{
+"name": "Calls Sub Disposition",
+"children":[
+{"name":"Inbound sub disposition"},
+{"name":"Outbound Call Disposition"}
+]
+},
+
+{
+"name": "Calls Disposition",
+"children":[
+{"name":"Inbound disposition "},
+{"name":"Outbound Main Disposition"}
+]
+},
+
+{
+"name": "Calls Description",
+"children":[
+{"name":"Inbound Disposition Remarks"},
+{"name":"Outbound Description"}
+]
+},
+
+{
+"name": "Calls User",
+"children":[
+{"name":"Inbound user"},
+{"name":"User Name"}
+]
+},
+
+{
+"name": "Call Date"
+},
+{
+"name": "Call Status"
+},
+{
+"name": "Call Duration"
+},
+{
+"name": "Lead ID"
+},
+{
+"name": "Call Count"
+},
+{
+"name": "Communication Preference",
+"children":[
+{"name":"SMS"},
+{"name":"WhatsApp"},
+{"name":"Email"},
+{"name":"Bureau Refresh"},
+{"name":"Bureau Delete"}
+]
+}
+]
+},
+{
+  "name": "Clickstream"
+  }
+  ]
+  }

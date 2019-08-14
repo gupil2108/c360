@@ -418,23 +418,23 @@
 
 
 {
-"name": "DPD - Ever"
+"name": "Is_DPD_30",
+"children":[
+{"name":"Value(Yes/No)"},
+]
 },
 {
-"name": "DPD - Default"
+"name": "Is_DPD_60",
+"children":[
+{"name":"Value(Yes/No)"},
+]
 },
 {
-"name": "Days Past Due (DPD)"
-},
-{
-"name": "Is_DPD_30"
-},
-{
-"name": "Is_DPD_60"
-},
-{
-"name": "Is_DPD_90"
-}
+"name": "Is_DPD_90",
+"children":[
+{"name":"Value(Yes/No)"},
+]
+}  
 ]
 },
   {

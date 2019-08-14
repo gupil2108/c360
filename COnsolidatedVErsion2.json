@@ -9,6 +9,7 @@
    {
     "name":"First Name",
     "children":[
+     {"name":"Value"},
      {"name":"Source"},
      {"name":"Confidence"},
      {"name":"Verified"},
@@ -414,6 +415,30 @@
 },
 
 
+
+
+
+{
+"name": "DPD - Ever",
+"children":[
+{"name":"Value(Yes/No)"}
+]
+},
+{
+"name": "DPD - Default",
+"children":[
+{"name":"Value(Yes/No)"}
+]
+},
+{
+"name": "Days Past Due (DPD)",
+"children":[
+{"name":"Value"},
+{"name":"Account Type"},
+{"name":"Instituion Name"},
+{"name":"Last Updated Date"}
+]
+},
 
 
 

@@ -3,46 +3,33 @@
  "children": [
   {
   "name": "Leads and Transactions",
-  "children": [{
+  "children": [
+  {
+ "name": "Customer",
+ "children": [
+ {
 "name": "Total transactor"
 },
 {
 "name": "Total Lead Count"
-},
+,
 "children":[
 {"name":"Product"},
-"children":[
-{"name":"Sub Product"},
-"children":[
-{"name":"Parent Active"},
-"children":[
+{"name":"Sub Product"},{"name":"Parent Active"},
 {"name":"Lead Created Date "},
-"children":[
 {"name":"Host Name"},
-"children":[
 {"name":"Device"},
-"children":[
 {"name":"Browser"},
-"children":[
 {"name":"Campaign Source"},
-"children":[
 {"name":"Campaign Name"},
-"children":[
 {"name":"Campaign Medium"},
-"children":[
 {"name":"Campaign Term"},
-"children":[
 {"name":"Campaign Content"},
-"children":[
 {"name":"Data Source"},
-"children":[
 {"name":"Agent Disposition"},
-"children":[
 {"name":"Agent Sub Disposition"},
-"children":[
 {"name":"Agent Disposition User"},
-"children":[
-{"name":"City"},]
+{"name":"City"}]
 },
 
 
@@ -71,8 +58,6 @@
 "children":[
 {"name":"Lead Created First Time"},
 {"name":"Lead Created Last Time"}
-]
-}
 ]
 }
 ]

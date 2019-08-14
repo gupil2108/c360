@@ -118,7 +118,7 @@
 {
 "name": "Age",
 "children":[
-{"name":"DOB"
+{"name":"DOB"}
 ]
 },
 {
@@ -174,8 +174,7 @@
 
 
 {
-"name":"Current Work Experience
-"
+"name":"Current Work Experience"
 },
 {
 "name": "Previous Work Experience"
@@ -194,6 +193,8 @@
 },
 {
 "name": "Gross Annual Profit"
+}
+]
 }
 ]
 }

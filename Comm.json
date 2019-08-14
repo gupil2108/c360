@@ -1,0 +1,121 @@
+{
+ "name": "Customer",
+ "children": [
+  {
+  "name": "Communication",
+  "children": [
+{
+"name": "Communication Count",
+"children":[
+{"name":"LTD Count"},
+{"name":"MTD Count"},
+{"name":"Today Count "},
+{"name":"Channel(Email,WhatsApp etc.)"},
+{"name":"Product"},
+{"name":"Tansactional/Promotional"},
+{"name":"Click Rate 6 month"},
+{"name":"Click Rate 1 month"},
+{"name":"Clicks in the last 6 months"},
+{"name":"Sent in the last 6 months"},
+{"name":"Earliest Sent Time 6 month"},
+{"name":"Latest Sent Time 6 month"},
+{"name":"Clicks in the last 1 month"},
+{"name":"Sent in the last 1 month"},
+{"name":"Failed messages last 6 months"},
+{"name":"Failed messages last 1 month"},
+{"name":"Open Rate 6 months"},
+{"name":"Open Rate 1 month"},
+{"name":"Opens in the last 6 months"},
+{"name":"Earliest Click Time 6 months"},
+{"name":"Latest Click Time 6 months"},
+{"name":"Earliest Open Time 6 months"},
+{"name":"Latest Open Time 6 months"},
+{"name":"Failed Messages"},
+{"name":"Sent Today"},
+{"name":"Sent Last Week"},
+{"name":"Bounce Rate"}
+]
+},
+{
+"name": "Latest Mobile"
+},
+{
+"name": "Latest Phone model"
+},
+{
+"name": "Latest OS"
+},
+{
+"name": "Latest Browser"
+},
+{
+"name": "Latest Operator"
+},
+{
+"name": "Latest Circle"
+},
+{
+"name": "Calls Sub Disposition",
+"children":[
+{"name":"Inbound sub disposition 
+"},
+{"name":"Outbound Call Disposition
+"}
+]
+},
+
+{
+"name": "Calls Disposition",
+"children":[
+{"name":"Inbound disposition 
+"},
+{"name":"Outbound Main Disposition
+"}
+]
+},
+
+{
+"name": "Calls Description",
+"children":[
+{"name":"Inbound Disposition Remarks"},
+{"name":"Outbound Description"}
+]
+},
+
+{
+"name": "Calls User",
+"children":[
+{"name":"Inbound user"},
+{"name":"User Name"}
+]
+},
+
+{
+"name": "Call Date"
+},
+{
+"name": "Call Status"
+},
+{
+"name": "Call Duration"
+},
+{
+"name": "Lead ID"
+},
+{
+"name": "Call Count"
+},
+{
+"name": "Communication Preference",
+"children":[
+{"name":"SMS"},
+{"name":"WhatsApp"},
+{"name":"Email"},
+{"name":"Bureau Refresh"},
+{"name":"Bureau Delete"}
+]
+}
+]
+}
+]
+}

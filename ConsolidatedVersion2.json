@@ -420,19 +420,19 @@
 {
 "name": "Is_DPD_30",
 "children":[
-{"name":"Value(Yes/No)"},
+{"name":"Value(Yes/No)"}
 ]
 },
 {
 "name": "Is_DPD_60",
 "children":[
-{"name":"Value(Yes/No)"},
+{"name":"Value(Yes/No)"}
 ]
 },
 {
 "name": "Is_DPD_90",
 "children":[
-{"name":"Value(Yes/No)"},
+{"name":"Value(Yes/No)"}
 ]
 }  
 ]

@@ -1,0 +1,251 @@
+{
+ "name": "Customer",
+ "children": [
+  {
+  "name": "Leads and Transactions",
+  "children": [
+{
+"name": "Bureau Score",
+"children":[
+{"name":"crm.bur_score"}
+]
+},
+{
+"name": "Credit Score",
+"children":[
+{"name":"CIBIL_score"},
+{"name":"CIBIL_upd_dt"},
+{"name":"Experian_Score"},
+{"name":"Experian_upd_dt"},
+{"name":"CRIF_Score"},
+{"name":"CRIF_upd_dt"},
+{"name":"Highmark_Score"}
+]
+},
+
+
+
+
+
+
+
+{
+"name": "Pre Approved Offers"
+},
+{
+"name": "Bureau Active"
+},
+{
+"name": "Original Amount Sum",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"}
+]
+},
+
+
+
+
+
+
+
+{
+"name": "Active Count",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Scheduled Monthly Payment"},
+{"name":"Amount Past Due"}
+]
+},
+
+
+
+
+
+
+
+
+
+{
+"name": "Closed Count",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"Date Closed"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Scheduled Monthly Payment"},
+{"name":"Amount Past Due"},
+{"name":"Written off Amount"},
+{"name":"Settlement Amount"}
+]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"name": "Past Due Amount Sum",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Amount Past Due"}
+]
+},
+
+
+
+
+
+
+
+
+{
+"name": "Balance Sum",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Rate of Interest"},
+{"name":"Scheduled Monthly Payment"},
+{"name":"Amount Past Due"}
+]
+},
+
+
+
+
+
+
+
+
+
+
+{
+"name": "Latest Closed Date",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"Date Closed"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Scheduled Monthly Payment"},
+{"name":"Amount Past Due"},
+{"name":"Written off Amount"},
+{"name":"Settlement Amount"}
+]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"name": "Latest Open Date",
+"children":[
+{"name":"Active Status"},
+{"name":"Product"},
+{"name":"Date Opened"},
+{"name":"High Credit"},
+{"name":"Credit Limit"},
+{"name":"Repayment Tenure"},
+{"name":"Rate of Interest"},
+{"name":"Subscriber Name"},
+{"name":"Rate of Interest"},
+{"name":"Scheduled Monthly Payment"}
+]
+},
+
+
+
+
+
+
+
+
+
+{
+"name": "Enquiry Count",
+"children":[
+{"name":"Date of Request"},
+{"name":"Subscriber Name"},
+{"name":"Product"},
+{"name":"Amount"},
+{"name":"Purpose"},
+{"name":"Enquiry Reason"}
+]
+},
+
+
+
+
+
+{
+"name": "DPD - Ever"
+},
+{
+"name": "DPD - Default"
+},
+{
+"name": "Days Past Due (DPD)"
+},
+{
+"name": "Is_DPD_30"
+},
+{
+"name": "Is_DPD_60"
+},
+{
+"name": "Is_DPD_90"
+}
+]
+}
+]
+}

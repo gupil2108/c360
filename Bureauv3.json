@@ -2,14 +2,8 @@
  "name": "Customer",
  "children": [
   {
-  "name": "Leads and Transactions",
+  "name": "Bureau",
   "children": [
-{
-"name": "Bureau Score",
-"children":[
-{"name":"crm.bur_score"}
-]
-},
 {
 "name": "Credit Score",
 "children":[

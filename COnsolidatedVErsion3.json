@@ -20,6 +20,21 @@
    {"name":"Last Name"}
   ]
  },
+  
+   {
+"name": "Gender"
+},
+   
+{
+"name": "Age",
+"children":[
+{"name":"DOB"}
+]
+},
+   {
+"name": "Customer Tenure"
+},
+   
 {
 "name": "Mobile Number",
 "children":[
@@ -33,6 +48,32 @@
 },
 {
 "name": "Office Landline"
+},
+   
+   {
+"name": "Email"
+},
+{
+"name": "PAN"
+},
+   
+   {
+"name": "Father Name",
+"children":[
+{"name":"Father First Name"},
+{"name":"Father Middle Name"},
+{"name":"Father Last Name"}
+]
+},
+
+
+{
+"name": "Mother Name",
+"children":[
+{"name":"Mother First Name"},
+{"name":"Mother Middle Name"},
+{"name":"Mother Last Name"}
+]
 },
 {
 "name": "Residential Address",
@@ -91,72 +132,25 @@
 
 
 
-
-
-
 {
-"name": "Correspondence Address",
-"children":[
-{"name":"Correspondence Address Line 1"},
-{"name":"Correspondence Address Line 2"},
-{"name":"Correspondence Address Line 3"},
-{"name":"Correspondence City"},
-{"name":"Correspondence Pincode"},
-{"name":"Correspondence State"},
-{"name":"Correspondence Country"}
-]
-},
-
-
-
-
-
-
-{
-"name": "Gender"
-},
-{
-"name": "Age",
-"children":[
-{"name":"DOB"}
-]
+"name": "Nationality"
 },
 {
 "name": "Aadhar Number"
 },
-{
-"name": "Email"
-},
-{
-"name": "PAN"
-},
-{
-"name": "Nationality"
-},
+
+
+
+
+
+
 {
 "name": "Qualification"
 },
 {
 "name": "Device"
 },
-{
-"name": "Father Name",
-"children":[
-{"name":"Father First Name"},
-{"name":"Father Middle Name"},
-{"name":"Father Last Name"}
-]
-},
 
-
-{
-"name": "Mother Name",
-"children":[
-{"name":"Mother First Name"},
-{"name":"Mother Middle Name"},
-{"name":"Mother Last Name"}
-]
-},
 
 
 {
@@ -167,7 +161,9 @@
 {"name":"Company Type"},
 {"name":"Industry Type"},
 {"name":"Profession Type"},
-{"name":"Nature of Business"},
+{"name":"Nature of Business"}
+ ]
+},
 
 
 
@@ -195,8 +191,6 @@
 "name": "Gross Annual Profit"
 }
 ]
-}
-]
 },
 {
   "name": "Bureau",
@@ -204,19 +198,29 @@
 {
 "name": "Credit Score",
 "children":[
-{"name":"CIBIL_score"},
-{"name":"CIBIL_upd_dt"},
-{"name":"Experian_Score"},
-{"name":"Experian_upd_dt"},
-{"name":"CRIF_Score"},
-{"name":"CRIF_upd_dt"},
-{"name":"Highmark_Score"}
+{"name":"Value"},
+{"name":"Bureau Name"},
+{"name":"Date Updated"}
 ]
 },
 
 
 
 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
 
 
@@ -227,18 +231,47 @@
 "name": "Bureau Active"
 },
 {
-"name": "Original Amount Sum",
+"name": "Tradelines Original Amount Sum",
 "children":[
-{"name":"Active Status"},
-{"name":"Product"},
-{"name":"Date Opened"},
-{"name":"High Credit"},
-{"name":"Credit Limit"},
-{"name":"Repayment Tenure"},
-{"name":"Rate of Interest"},
-{"name":"Subscriber Name"}
+{"name":"Value"},
+{"name":"Product"}
 ]
 },
+
+   
+{
+"name": "Tradelines Past Due Amount Sum",
+"children":[
+{"name":"Value"},
+{"name":"Product"}
+]
+},
+   
+ 
+   
+   
+{
+"name": "Tradelines Balance Sum",
+"children":[
+{"name":"Value"},
+{"name":"Product"}
+]
+},
+
+
+
+
+
+
+{
+"name": "Tradelines Active Count",
+"children":[
+{"name":"Count"},
+{"name":"Product"}
+]
+},
+
+
 
 
 
@@ -247,47 +280,14 @@
 
 
 {
-"name": "Active Count",
+"name": "Tradelines Closed Count",
 "children":[
-{"name":"Active Status"},
-{"name":"Product"},
-{"name":"Date Opened"},
-{"name":"High Credit"},
-{"name":"Credit Limit"},
-{"name":"Repayment Tenure"},
-{"name":"Rate of Interest"},
-{"name":"Subscriber Name"},
-{"name":"Scheduled Monthly Payment"},
-{"name":"Amount Past Due"}
+{"name":"Count"},
+{"name":"Product"}
 ]
 },
 
 
-
-
-
-
-
-
-
-{
-"name": "Closed Count",
-"children":[
-{"name":"Active Status"},
-{"name":"Product"},
-{"name":"Date Opened"},
-{"name":"Date Closed"},
-{"name":"High Credit"},
-{"name":"Credit Limit"},
-{"name":"Repayment Tenure"},
-{"name":"Rate of Interest"},
-{"name":"Subscriber Name"},
-{"name":"Scheduled Monthly Payment"},
-{"name":"Amount Past Due"},
-{"name":"Written off Amount"},
-{"name":"Settlement Amount"}
-]
-},
 
 
 
@@ -301,69 +301,10 @@
 
 
 {
-"name": "Past Due Amount Sum",
+"name": "Tradelines Latest Closed Date",
 "children":[
-{"name":"Active Status"},
 {"name":"Product"},
-{"name":"Date Opened"},
-{"name":"High Credit"},
-{"name":"Credit Limit"},
-{"name":"Repayment Tenure"},
-{"name":"Rate of Interest"},
-{"name":"Subscriber Name"},
-{"name":"Amount Past Due"}
-]
-},
-
-
-
-
-
-
-
-
-{
-"name": "Balance Sum",
-"children":[
-{"name":"Active Status"},
-{"name":"Product"},
-{"name":"Date Opened"},
-{"name":"High Credit"},
-{"name":"Credit Limit"},
-{"name":"Repayment Tenure"},
-{"name":"Rate of Interest"},
-{"name":"Subscriber Name"},
-{"name":"Rate of Interest"},
-{"name":"Scheduled Monthly Payment"},
-{"name":"Amount Past Due"}
-]
-},
-
-
-
-
-
-
-
-
-
-
-{
-"name": "Latest Closed Date",
-"children":[
-{"name":"Active Status"},
-{"name":"Product"},
-{"name":"Date Opened"},
-{"name":"Date Closed"},
-{"name":"High Credit"},
-{"name":"Credit Limit"},
-{"name":"Repayment Tenure"},
-{"name":"Rate of Interest"},
-{"name":"Subscriber Name"},
-{"name":"Scheduled Monthly Payment"},
-{"name":"Amount Past Due"},
-{"name":"Written off Amount"},
-{"name":"Settlement Amount"}
+{"name":"Date Closed"}
 ]
 },
 
@@ -379,18 +320,10 @@
 
 
 {
-"name": "Latest Open Date",
+"name": "Tradelines Latest Open Date",
 "children":[
-{"name":"Active Status"},
 {"name":"Product"},
-{"name":"Date Opened"},
-{"name":"High Credit"},
-{"name":"Credit Limit"},
-{"name":"Repayment Tenure"},
-{"name":"Rate of Interest"},
-{"name":"Subscriber Name"},
-{"name":"Rate of Interest"},
-{"name":"Scheduled Monthly Payment"}
+{"name":"Date Opened"}
 ]
 },
 
@@ -403,17 +336,21 @@
 
 
 {
-"name": "Enquiry Count",
+"name": "Tradelines Enquiry Count",
+"children":[
+{"name":"Count"},
+ {"name":"Date of Request"},
+{"name":"Partner Name"}
+]
+},
+
+   {
+"name": "Latest Tradelines Enquiry Date",
 "children":[
 {"name":"Date of Request"},
-{"name":"Subscriber Name"},
-{"name":"Product"},
-{"name":"Amount"},
-{"name":"Purpose"},
-{"name":"Enquiry Reason"}
+{"name":"Partner Name"}
 ]
 },
-
 
 
 
@@ -421,13 +358,20 @@
 {
 "name": "DPD - Ever",
 "children":[
-{"name":"Value(Yes/No)"}
+{"name":"EVER Default"},
+ {"name":"EVER 30 DPD"},
+ {"name":"EVER 60 DPD"},
+ {"name":"EVER 90 DPD"}
 ]
 },
 {
-"name": "DPD - Default",
+"name": "DPD - Account Count",
 "children":[
-{"name":"Value(Yes/No)"}
+{"name":"Value"},
+ {"name":"Product"},
+ {"name":"30 Days Past Due"},
+ {"name":"60 Days Past Due"},
+ {"name":"90 Days Past Due"}
 ]
 },
 {
@@ -438,42 +382,87 @@
 {"name":"Instituion Name"},
 {"name":"Last Updated Date"}
 ]
-},
+}
 
 
 
-{
-"name": "Is_DPD_30",
-"children":[
-{"name":"Value(Yes/No)"}
+ 
 ]
 },
+
+
 {
-"name": "Is_DPD_60",
+"name": "RAW Report Account",
 "children":[
-{"name":"Value(Yes/No)"}
+{"name":"Account Type ID"},
+{"name":"Account Status ID"},
+  {"name":"Income"},
+{"name":"Income Indicator"},
+{"name":"Partner Name"},
+{"name":"Date Reported"},
+{"name":"Date Closed"},
+ {"name":"Date Opened"},
+ {"name":"High Credit"},
+ {"name":"Repayment Tenure"},
+ {"name":"Scheduled Monthly Payment"},
+ {"name":"Amount Past Due"},
+  {"name":"Written off Amount"},
+ {"name":"Settlement Amount"},
+ {"name":"Credit Limit Amount"},
+{"name":"Current Balance"},
+{"name":"Institution ID"},
+ {"name":"Rate of Interest"}
 ]
-},
-{
-"name": "Is_DPD_90",
+}, 
+
+   {
+"name": "RAW Report Account History",
 "children":[
-{"name":"Value(Yes/No)"}
+{"name":"Month"},
+{"name":"Year"},
+{"name":"Days Past Due"}
 ]
-}  
+}, 
+   
+     {
+"name": "RAW Report Account Holder Details",
+"children":[
+{"name":"Income Tax Pan"},
+{"name":"UID Number"},
+{"name":"Voter ID Number"},
+{"name":"Ration Card Number"},
+{"name":"Driving License Number"},
+{"name":"Date of Birth"}
 ]
-},
+}, 
+   
+
+
   {
   "name": "Leads and Transactions",
   "children": [
 {
-"name": "Total transactor"
+"name": "Total transactor",
+ "children":[
+{"name":"Value"},
+  {"name":"Product"}
+]
 },
 {
 "name": "Total Lead Count"
 ,
 "children":[
+ {"name":"Value"},
 {"name":"Product"},
-{"name":"Sub Product"},{"name":"Parent Active"},
+{"name":"Sub Product"}
+ ]
+},
+
+ 
+ {
+"name": "RAW Lead Details",
+"children":[
+ {"name":"Parent Active"},
 {"name":"Lead Created Date "},
 {"name":"Host Name"},
 {"name":"Device"},
@@ -504,10 +493,6 @@
 
 
 
-
-{
-"name": "PB Customer ID"
-},
 {
 "name": "Customer Tenure"
 },
@@ -524,7 +509,7 @@
   "name": "Communication",
   "children": [
 {
-"name": "Communication Count",
+"name": "Communication Details",
 "children":[
 {"name":"LTD Count"},
 {"name":"MTD Count"},
@@ -573,14 +558,18 @@
 {
 "name": "Latest Circle"
 },
-{
+
+   
+   {
+"name": "Call Details",
+"children":[
+ {
 "name": "Calls Sub Disposition",
 "children":[
 {"name":"Inbound sub disposition"},
 {"name":"Outbound Call Disposition"}
 ]
 },
-
 {
 "name": "Calls Disposition",
 "children":[
@@ -588,7 +577,6 @@
 {"name":"Outbound Main Disposition"}
 ]
 },
-
 {
 "name": "Calls Description",
 "children":[
@@ -596,7 +584,6 @@
 {"name":"Outbound Description"}
 ]
 },
-
 {
 "name": "Calls User",
 "children":[
@@ -604,7 +591,6 @@
 {"name":"User Name"}
 ]
 },
-
 {
 "name": "Call Date"
 },
@@ -619,7 +605,11 @@
 },
 {
 "name": "Call Count"
-},
+}
+ ]
+   },
+   
+
 {
 "name": "Communication Preference",
 "children":[

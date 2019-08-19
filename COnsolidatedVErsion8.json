@@ -480,6 +480,64 @@
 {"name":"City"}]
 },
 
+   
+   {
+"name": "Appointment Details",
+"children":[
+ {"name":"Reference Number"},
+{"name":"Bank Name"},
+{"name":"Product Name"},
+ {"name":"Sub Product Name"},
+{"name":"City"},
+{"name":"Amount"},
+ {"name":"Tenure"},
+{"name":"Interest Rate"},
+{"name":"Status"},
+{"name":"Appointment Date"},
+{"name":"Appointment Time"},
+{"name":"Disb. Amount/Tenure"},
+{"name":"Appointment Type"},
+{"name":"Channel Type"},
+{"name":"Documents Listed"},
+ {"name":"Status"},
+{"name":"AIP Status"},
+{"name":"Fulfillment Status"},
+{"name":"Remark"}
+]
+},
+   
+   {
+"name": "Disbursal Details",
+"children":[
+ {"name":"Disbursal Date"},
+{"name":"Bank"},
+{"name":"Lead ID"},
+ {"name":"Croma Lead ID"},
+ {"name":"Location"},
+{"name":"City"},
+{"name":"Disbursed Amount"},
+ {"name":"Disbursal UTM Source"},
+ {"name":"Disbursal Income Bucket"},
+{"name":"Master Bank Name Disbursal"},
+{"name":"Actual Disbursal"},
+{"name":"Unassisted Disbursal"},
+{"name":"Assisted Disbursal"},
+{"name":"Affiliate"},
+{"name":"Product Name"},
+ {"name":"Sub Product"},
+{"name":"Payout"},
+{"name":"Agent Name"},
+{"name":"Employee ID"},
+{"name":"Source"},
+{"name":"TL Name"},
+{"name":"Product"},
+{"name":"Channel Type"},
+ {"name":"Disbursal Master City"},
+ {"name":"Disbursal Profession Type"},
+ {"name":"Disbursal Shared Unique"},
+{"name":"Campaign Name"}
+]
+},
 
 
 

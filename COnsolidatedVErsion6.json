@@ -433,7 +433,9 @@
 {"name":"Driving License Number"},
 {"name":"Date of Birth"}
 ]
-}, 
+}
+   ]
+},
    
 
 
@@ -496,7 +498,7 @@
 "name": "Customer Tenure"
 },
 {
-"name": "Lead Created",
+"name": "Lead Created Time",
 "children":[
 {"name":"Lead Created First Time"},
 {"name":"Lead Created Last Time"}
@@ -504,6 +506,7 @@
 }
 ]
 },
+  
   {
   "name": "Communication",
   "children": [

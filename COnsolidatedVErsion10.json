@@ -639,36 +639,8 @@
 {"name":"Sent Last Week"},
 {"name":"Bounce Rate"}
 ]
-}
-]
 },
- 
-{"name":"Product"},
-{"name":"Tansactional/Promotional"}
- ]
-},
-  
-{
-"name": "Latest Mobile"
-},
-{
-"name": "Latest Phone model"
-},
-{
-"name": "Latest OS"
-},
-{
-"name": "Latest Browser"
-},
-{
-"name": "Latest Operator"
-},
-{
-"name": "Latest Circle"
-},
-
-   
-   {
+     {
 "name": "Call Details",
 "children":[
  {
@@ -716,7 +688,38 @@
 }
  ]
    },
+   {
+"name": "WhatsApp"
+}
+]
+},
+ 
+{"name":"Product"},
+{"name":"Tansactional/Promotional"}
+ ]
+},
+  
+{
+"name": "Latest Mobile"
+},
+{
+"name": "Latest Phone model"
+},
+{
+"name": "Latest OS"
+},
+{
+"name": "Latest Browser"
+},
+{
+"name": "Latest Operator"
+},
+{
+"name": "Latest Circle"
+},
+
    
+
 
 {
 "name": "Communication Preference",

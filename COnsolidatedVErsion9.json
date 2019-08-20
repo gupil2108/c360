@@ -234,7 +234,8 @@
 "name": "Tradelines Original Amount Sum",
 "children":[
 {"name":"Value"},
-{"name":"Product"}
+{"name":"Product"},
+ {"name":"Date Opened"}
 ]
 },
 
@@ -243,8 +244,9 @@
 "name": "Tradelines Past Due Amount Sum",
 "children":[
 {"name":"Value"},
-{"name":"Product"}
-]
+{"name":"Product"},
+ {"name":"Date of First Delinquency"}
+ ]
 },
    
  
@@ -254,7 +256,8 @@
 "name": "Tradelines Balance Sum",
 "children":[
 {"name":"Value"},
-{"name":"Product"}
+{"name":"Product"},
+ {"name":"Date Reported"}
 ]
 },
 
@@ -267,7 +270,8 @@
 "name": "Tradelines Active Count",
 "children":[
 {"name":"Count"},
-{"name":"Product"}
+{"name":"Product"},
+ {"name":"Date Opened"}
 ]
 },
 
@@ -283,7 +287,8 @@
 "name": "Tradelines Closed Count",
 "children":[
 {"name":"Count"},
-{"name":"Product"}
+{"name":"Product"},
+ {"name":"Date Closed"}
 ]
 },
 
@@ -400,6 +405,7 @@
 {"name":"Partner Name"},
 {"name":"Date Reported"},
 {"name":"Date Closed"},
+ {"name":"Date of First Delinquency"},
  {"name":"Date Opened"},
  {"name":"High Credit"},
  {"name":"Repayment Tenure"},
@@ -484,19 +490,27 @@
    {
 "name": "Appointment Details",
 "children":[
+ {"name":"Lead Score"},
  {"name":"Reference Number"},
 {"name":"Bank Name"},
 {"name":"Product Name"},
  {"name":"Sub Product Name"},
+ {"name":"Sub BL Product Name"},
 {"name":"City"},
 {"name":"Amount"},
  {"name":"Tenure"},
 {"name":"Interest Rate"},
+ {"name":"Created User"},
 {"name":"Status"},
 {"name":"Appointment Date"},
 {"name":"Appointment Time"},
 {"name":"Disb. Amount/Tenure"},
-{"name":"Appointment Type"},
+ {"name":"Disbursed Date"},
+ {"name":"Disbursed Amount"},
+  {"name":"Disbursed Amount"},
+ {"name":"TL Assigned"},
+  {"name":"Post App Disposition"},
+ {"name":"Appointment Type"},
 {"name":"Channel Type"},
 {"name":"Documents Listed"},
  {"name":"Status"},
@@ -561,6 +575,13 @@
 {"name":"Lead Created First Time"},
 {"name":"Lead Created Last Time"}
 ]
+},
+   {
+"name": "Lead Updated Time",
+"children":[
+{"name":"Lead Updated First Time"},
+{"name":"Lead Updated Last Time"}
+]
 }
 ]
 },
@@ -574,9 +595,28 @@
 {"name":"LTD Count"},
 {"name":"MTD Count"},
 {"name":"Today Count "},
-{"name":"Channel(Email,WhatsApp etc.)"},
-{"name":"Product"},
-{"name":"Tansactional/Promotional"},
+{"name":"Channel",
+ "children":[
+  {
+"name": "SMS Details",
+"children":[
+{"name":"Click Rate 6 month"},
+{"name":"Click Rate 1 month"},
+{"name":"Clicks in the last 6 months"},
+{"name":"Sent in the last 6 months"},
+{"name":"Earliest Sent Time 6 month"},
+{"name":"Latest Sent Time 6 month"},
+{"name":"Clicks in the last 1 month"},
+{"name":"Sent in the last 1 month"},
+{"name":"Earliest Click Time 6 months"},
+{"name":"Latest Click Time 6 months"},
+{"name":"Sent Today"},
+{"name":"Sent Last Week"}
+]
+},
+   {
+"name": "Email Details",
+"children":[
 {"name":"Click Rate 6 month"},
 {"name":"Click Rate 1 month"},
 {"name":"Clicks in the last 6 months"},
@@ -599,7 +639,15 @@
 {"name":"Sent Last Week"},
 {"name":"Bounce Rate"}
 ]
+}
+]
 },
+ 
+{"name":"Product"},
+{"name":"Tansactional/Promotional"}
+ ]
+},
+  
 {
 "name": "Latest Mobile"
 },

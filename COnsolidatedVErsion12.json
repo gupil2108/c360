@@ -648,19 +648,19 @@
 "children":[
 {"name":"Call ID"},
 {"name":"Call Lead ID"},
- {"name":"Call CRM User Lead ID"},
+ {"name":"Call CRM User Lead ID",
  "children":[
 {"name":"Call crm changed user id"},
 {"name":"Call crm user main role tvpe id"},
  {"name":"Call crm user role type id"},
  {"name":"Call Realigned"}
- ],
+ ]
+ },
  {"name":"Call Active"},
 {"name":"Call Created Time"},
  {"name":"Calling Call Type"},
  {"name":"Call Sub Disposition"},
-]
-     },
+
       {   "name": "Dialer",
 "children":[
 {"name":"Call ID"},
@@ -669,7 +669,7 @@
   "children":[
  {"name":"Customer Response"},
  {"name":"Wait Time"},
-  {"name":"Channel"}
+  {"name":"Channel"},
  {"name":"Position",
   "children":[
  {"name":"Current"},
@@ -682,7 +682,7 @@
 },
         {"name":"Called Number"},
   {"name":"Event"}
-  ]
+  ]},
   
        {"name":"Connected Call",
   "children":[
@@ -750,10 +750,9 @@
 },
  
 {"name":"Product"},
-{"name":"Tansactional/Promotional"}
- ]
+{"name":"Tansactional/Promotional"
 },
-  
+ 
 {
 "name": "Latest Mobile"
 },
@@ -784,8 +783,6 @@
 {"name":"Email"},
 {"name":"Bureau Refresh"},
 {"name":"Bureau Delete"}
-]
-}
 ]
 },
 {

@@ -804,6 +804,8 @@
 ]
 }
 ]
+}
+]
 },
 {
 "name": "WhatsApp"
@@ -817,7 +819,7 @@
 "name": "Latest Mobile"
 },
 {
-"name": "Latest Phone model"
+"name": "Latest Phone"
 },
 {
 "name": "Latest OS"
@@ -851,6 +853,4 @@
   "name": "Clickstream"
   }
   ]
-}
-]
 }

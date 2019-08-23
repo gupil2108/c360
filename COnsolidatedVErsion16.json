@@ -584,51 +584,159 @@
 {"name":"LTD Count"},
 {"name":"MTD Count"},
 {"name":"Today Count "},
-{"name":"Channel",
+{"name":"Sent Count",
  "children":[
-  {
-"name": "SMS Details",
-"children":[
-{"name":"Click Rate 6 month"},
-{"name":"Click Rate 1 month"},
-{"name":"Clicks in the last 6 months"},
-{"name":"Sent in the last 6 months"},
-{"name":"Earliest Sent Time 6 month"},
-{"name":"Latest Sent Time 6 month"},
-{"name":"Clicks in the last 1 month"},
-{"name":"Sent in the last 1 month"},
-{"name":"Earliest Click Time 6 months"},
-{"name":"Latest Click Time 6 months"},
-{"name":"Sent Today"},
-{"name":"Sent Last Week"}
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Sent Date"},
+{"name":"Sent Time"},
+{"name":"Status"},
+{"name":"Last update date"},
+{"name":"Product"}
 ]
 },
-   {
-"name": "Email Details",
-"children":[
-{"name":"Click Rate 6 month"},
-{"name":"Click Rate 1 month"},
-{"name":"Clicks in the last 6 months"},
-{"name":"Sent in the last 6 months"},
-{"name":"Earliest Sent Time 6 month"},
-{"name":"Latest Sent Time 6 month"},
-{"name":"Clicks in the last 1 month"},
-{"name":"Sent in the last 1 month"},
-{"name":"Failed messages last 6 months"},
-{"name":"Failed messages last 1 month"},
-{"name":"Open Rate 6 months"},
-{"name":"Open Rate 1 month"},
-{"name":"Opens in the last 6 months"},
-{"name":"Earliest Click Time 6 months"},
-{"name":"Latest Click Time 6 months"},
-{"name":"Earliest Open Time 6 months"},
-{"name":"Latest Open Time 6 months"},
-{"name":"Failed Messages"},
-{"name":"Sent Today"},
-{"name":"Sent Last Week"},
-{"name":"Bounce Rate"}
-]
+ 
+ {"name":"Sent Date",
+ "children":[
+{"name":"Max Sent Date",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Product"}
+  ]
 },
+  {"name":"Min Sent Date",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Product"}
+  ]
+}
+  ]
+ },
+ {"name":"Click Rate",
+ "children":[
+{"name":"Click Rate 6 Months",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Timestamp"},
+{"name":"Product"}
+  ]
+
+ },
+  {"name":"Click Rate 1 Month",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Timestamp"},
+{"name":"Product"}
+  ]
+}
+  ]
+ },
+ {"name":"Click Count",
+ "children":[
+{"name":"Click Count 6 Months",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Timestamp"},
+{"name":"Product"}
+  ]
+},
+  {"name":"Click Count 1 Month",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Timestamp"},
+{"name":"Product"}
+  ]
+}
+  ]
+ },
+ {"name":"Click Time",
+ "children":[
+{"name":"Latest Click Time",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Product"}
+  ]
+},
+  {"name":"Earliest Click Time",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Product"}
+  ]
+}
+  ]
+ },
+ {"name":"Open Rate",
+ "children":[
+{"name":"Open Rate 6 Months",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Timestamp"},
+{"name":"Product"}
+  ]
+
+ },
+  {"name":"Open Rate 1 Month",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Timestamp"},
+{"name":"Product"}
+  ]
+}
+  ]
+ },
+ {"name":"Open Count",
+ "children":[
+{"name":"Open Count 6 Months",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Timestamp"},
+{"name":"Product"}
+  ]
+},
+  {"name":"Open Count 1 Month",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Timestamp"},
+{"name":"Product"}
+  ]
+}
+  ]
+ },
+ {"name":"Open Time",
+ "children":[
+{"name":"Earliest Open Time",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Product"}
+  ]
+},
+  {"name":"Latest Open Time",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Product"}
+  ]
+}
+  ]
+ },
+ 
+  
+ 
+   
+   
      {
 "name": "Call Details",
 "children":[
@@ -735,8 +843,6 @@
 {"name":"Email"},
 {"name":"Bureau Refresh"},
 {"name":"Bureau Delete"}
-]
-}
 ]
 }
 ]

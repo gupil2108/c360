@@ -659,7 +659,9 @@
  {"name":"Call Active"},
 {"name":"Call Created Time"},
  {"name":"Calling Call Type"},
- {"name":"Call Sub Disposition"},
+ {"name":"Call Sub Disposition"}
+ ]
+ },
 
       {   "name": "Dialer",
 "children":[
@@ -675,11 +677,8 @@
  {"name":"Current"},
  {"name":"Original"}
  ]
- }
- ]
-      }
-  ]
-},
+ },
+ 
         {"name":"Called Number"},
   {"name":"Event"}
   ]},
@@ -695,8 +694,6 @@
  {"name":"Current"},
  {"name":"Original"}
  ]
-   }
-  ]
 },
 
         {"name":"Called Number"},
@@ -705,44 +702,10 @@
   }
 ]
 },
-{
-"name": "Calls Disposition",
-"children":[
-{"name":"Inbound disposition "},
-{"name":"Outbound Main Disposition"}
-]
-},
-{
-"name": "Calls Description",
-"children":[
-{"name":"Inbound Disposition Remarks"},
-{"name":"Outbound Description"}
-]
-},
-{
-"name": "Calls User",
-"children":[
-{"name":"Inbound user"},
-{"name":"User Name"}
-]
-},
-{
-"name": "Call Date"
-},
-{
-"name": "Call Status"
-},
-{
-"name": "Call Duration"
-},
-{
-"name": "Lead ID"
-},
+
 {
 "name": "Call Count"
-}
- ]
-   },
+},
    {
 "name": "WhatsApp"
 }
@@ -784,9 +747,12 @@
 {"name":"Bureau Refresh"},
 {"name":"Bureau Delete"}
 ]
+}
+]
 },
 {
   "name": "Clickstream"
   }
   ]
-  }
+}
+ 

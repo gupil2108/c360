@@ -644,10 +644,65 @@
 "name": "Call Details",
 "children":[
  {
-"name": "Calls Sub Disposition",
+"name": "CRM",
 "children":[
-{"name":"Inbound sub disposition"},
-{"name":"Outbound Call Disposition"}
+{"name":"Call ID"},
+{"name":"Call Lead ID"},
+ {"name":"Call CRM User Lead ID"},
+ "children":[
+{"name":"Call crm changed user id"},
+{"name":"Call crm user main role tvpe id"},
+ {"name":"Call crm user role type id"},
+ {"name":"Call Realigned"}
+ ],
+ {"name":"Call Active"},
+{"name":"Call Created Time"},
+ {"name":"Calling Call Type"},
+ {"name":"Call Sub Disposition"},
+]
+     },
+      {   "name": "Dialer",
+"children":[
+{"name":"Call ID"},
+{"name":"Phone"},
+ {"name":"Attempted Call",
+  "children":[
+ {"name":"Customer Response"},
+ {"name":"Wait Time"},
+  {"name":"Channel"}
+ {"name":"Position",
+  "children":[
+ {"name":"Current"},
+ {"name":"Original"}
+ ]
+ }
+ ]
+      }
+  ]
+},
+        {"name":"Called Number"},
+  {"name":"Event"}
+  ]
+  
+       {"name":"Connected Call",
+  "children":[
+ {"name":"Customer Response"},
+ {"name":"Wait Time"},
+  {"name":"Talk Time"},
+  {"name":"Channel"},
+   {"name":"Position",
+  "children":[
+ {"name":"Current"},
+ {"name":"Original"}
+ ]
+   }
+  ]
+},
+
+        {"name":"Called Number"},
+  {"name":"Event"}
+  ]
+  }
 ]
 },
 {

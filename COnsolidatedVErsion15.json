@@ -688,14 +688,14 @@
         {"name":"Called Number"},
   {"name":"Event"}
   ]
-  }
-]
-},
+  },
 
 {
 "name": "Call Count"
+}
+]
 },
-   {
+{
 "name": "WhatsApp"
 }
 ]
@@ -740,11 +740,11 @@
 ]
 }
 ]
+}
+]
 },
 {
   "name": "Clickstream"
   }
   ]
-}
-]
 }

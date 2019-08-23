@@ -756,8 +756,13 @@
  {"name":"Call Active"},
 {"name":"Call Created Time"},
  {"name":"Calling Call Type"},
- {"name":"Call Sub Disposition"}
- ]
+ {"name":"Call Sub Disposition"},
+ {"name":"Call Next Time"},
+{"name":"Call Duration"},
+ {"name":"Calling Campaign Name"},
+ {"name":"Call Contact Number"},
+ {"name":"Call Duration"}
+]
  },
 
       {   "name": "Dialer",
@@ -819,7 +824,7 @@
 "name": "Latest Mobile"
 },
 {
-"name": "Latest Phone"
+"name": "Latest Phone model"
 },
 {
 "name": "Latest OS"

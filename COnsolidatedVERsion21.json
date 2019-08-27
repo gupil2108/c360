@@ -748,8 +748,6 @@
  {"name":"Call CRM User Lead ID",
  "children":[
 {"name":"Call crm changed user id"},
-{"name":"Call crm user main role tvpe id"},
- {"name":"Call crm user role type id"},
  {"name":"Call Realigned"}
  ]
  },
@@ -780,8 +778,13 @@
  {"name":"Original"}
  ]
  },
+   {"name":"Duration"},
+   {"name":"Product"},
+   {"name":"Talktime"},
+   {"name":"Agent ID"},
+   {"name":"Date"},
  
-        {"name":"Called Number"},
+        {"name":"Customer Dialed Number"},
   {"name":"Event"}
   ]},
   
@@ -797,14 +800,24 @@
  {"name":"Original"}
  ]
 },
+   {"name":"Duration"},
+   {"name":"Product"},
+   {"name":"Talktime"},
+   {"name":"Agent ID"},
+   {"name":"Date"},
+ 
 
-        {"name":"Called Number"},
+        {"name":"Customer Dialed Number"},
   {"name":"Event"}
   ]
   },
 
 {
-"name": "Call Count"
+"name": "Call Count",
+  "children":[
+ {"name":"Attempted"},
+ {"name":"Connected"}
+   ]
 }
 ]
 }

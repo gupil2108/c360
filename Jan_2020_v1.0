@@ -31,9 +31,11 @@
 {"name":"DOB"}
 ]
 },
-   {
-"name": "Customer Tenure"
+
+{
+"name": "PAN"
 },
+
    
 {
 "name": "Mobile Number",
@@ -43,19 +45,40 @@
 ]
 },
 
+   {
+"name": "Customer Tenure"
+},
+
+{
+"name": "Landline",
+"children":[
 {
 "name": "Residence Landline"
 },
 {
 "name": "Office Landline"
+}
+]
 },
-   
-   {
-"name": "Email"
+
+
+{
+"name": "Email Address",
+"children":[
+{
+"name": "Primary Email"
 },
 {
-"name": "PAN"
+"name": "Secondary Email"
 },
+{
+"name": "Tertiary Email"
+}
+]
+},
+   
+
+
    
    {
 "name": "Father Name",
@@ -165,36 +188,47 @@
  ]
 },
 
+{
+"name": "Work Experience",
+"children":[
+{"name":"Current Work Experience"},
+{"name":"Previous Work Experience"},
+{"name":"Total Work Experience"},
+{"name":"Years in Current Business"}
+ ]
+},
+
+{
+"name": "Income",
+"children":[
+{"name":"Monthly Income"},
+{"name":"Annual Income"},
+{"name":"Annual Turnover"},
+{"name":"Gross Annual Profit"}
+ ]
+},
 
 
 
-
-{
-"name":"Current Work Experience"
-},
-{
-"name": "Previous Work Experience"
-},
-{
-"name": "Total Work Experience"
-},
-{
-"name": "Years in Current Business"
-},
-{
-"name": "Monthly Income"
-},
-{
-"name": "Annual Income"
-},
-{
-"name": "Gross Annual Profit"
-}
-]
-},
 {
   "name": "Bureau",
   "children": [
+  
+ {
+"name": "Bureau Customer",
+"children":[
+{"name":"Value"},
+{"name":"Bureau Name"},
+{"name":"Status"},
+{"name":"Source"},
+{"name":"Active"},
+{"name":"Date Applied"}
+{"name":"Date Updated"}
+]
+}, 
+  
+  
+  
 {
 "name": "Credit Score",
 "children":[
@@ -225,7 +259,11 @@
 
 
 {
-"name": "Pre Approved Offers"
+"name": "Pre Approved Offers",
+"children":[
+{"name":"Best Offers"},
+ {"name":"All Offers"},
+{"name":"Date Updated"}
 },
 {
 "name": "Bureau Active"
@@ -366,33 +404,26 @@
 {"name":"EVER Default"},
  {"name":"EVER 30 DPD"},
  {"name":"EVER 60 DPD"},
- {"name":"EVER 90 DPD"}
+ {"name":"EVER 90 DPD"},
+ {"name":"Accounts Count"},
+ {"name":"Product"},
+ {"name":"Date Updated"}
 ]
 },
+
+
 {
 "name": "DPD - Account Count",
 "children":[
 {"name":"Value"},
  {"name":"Product"},
+ {"name":"Institution Name"},
  {"name":"30 Days Past Due"},
  {"name":"60 Days Past Due"},
  {"name":"90 Days Past Due"}
 ]
 },
-{
-"name": "Days Past Due (DPD)",
-"children":[
-{"name":"Value"},
-{"name":"Account Type"},
-{"name":"Instituion Name"},
-{"name":"Last Updated Date"}
 
-
-
-
- 
-]
-},
 
 
 {
@@ -451,7 +482,7 @@
 {
 "name": "Total transactor",
  "children":[
-{"name":"Value"},
+{name":"Value"},
   {"name":"Product"}
 ]
 },
@@ -578,23 +609,82 @@
   {
   "name": "Communication",
   "children": [
+  
+{
+"name": "LTD Communication Count",
+"children":[
+{"name":"Count"},
+{"name":"Sent Date"},
+{"name":"Channel"},
+{"name":"Product"},
+{"name":"Communication Type"}
+]
+},
+
+{
+"name": "Communication Count",
+"children":[
+{"name":"Count"},
+{"name":"Sent Date"},
+{"name":"Event"},
+{"name":"Product"},
+{"name":"Communication Type"},
+{"name":"Template"},
+{"name":"Sender"},
+{"name":"Service"},
+{"name":"Call Direction"},
+{"name":"Call Type"},
+{"name":"Email Status"},
+{"name":"Email Viewed Time"},
+{"name":"Sent Time"}
+]
+},
+
 {
 "name": "Communication Details",
 "children":[
-{"name":"LTD Count"},
-{"name":"MTD Count"},
-{"name":"Today Count "},
-{"name":"Sent Count",
- "children":[
-{"name":"Value"},
-{"name":"Channel "},
-{"name":"Sent Date"},
+{"name":"Channel"},
 {"name":"Sent Time"},
-{"name":"Status"},
-{"name":"Last update date"},
+{"name":"Communication Type"},
+{"name":"Template"},
+{"name":"Sender"},
+{"name":"Campaign ID"},
+{"name":"Service"},
+{"name":"Call Direction"},
+{"name":"Call Type"},
+{"name":"Email Status"},
+{"name":"Email Viewed Time"},
+{"name":"Sent Time"}
+]
+},
+
+{
+"name": "Blacklist",
+"children":[
+{"name":"Value"},
 {"name":"Product"}
 ]
 },
+
+ {"name":"Failed Messages",
+ "children":[
+{"name":"Failed Messsages 6 Months",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Product"}
+  ]
+},
+{"name":"Failed Messsages 1 Month",
+ "children":[
+{"name":"Value"},
+{"name":"Channel "},
+{"name":"Product"}
+  ]
+}
+]
+},
+
  
  {"name":"Sent Date",
  "children":[
@@ -740,9 +830,6 @@
      {
 "name": "Call Details",
 "children":[
- {
-"name": "CRM",
-"children":[
 {"name":"Call ID"},
 {"name":"Call Lead ID"},
  {"name":"Call CRM User Lead ID",
@@ -867,8 +954,5 @@
 }
 ]
 },
-{
-  "name": "Clickstream"
-  }
   ]
 }
